@@ -6,7 +6,7 @@ Welcome to the official website repository for **Qiskit Fall Fest PNC 2025**, ho
 - **Dates**: November 9–19, 2025
 - **Format**: Hybrid (In-person + Online)
 - **Location**: Prithvi Narayan Campus, Pokhara
-- **Website**: [Live Site]([https://qiskitfallfest-pnc2025.vercel.app])
+- **Website**: [Live Site](https://qiskitfallfest-pnc2025.vercel.app)
 
 ## 📬 Contact
 - Email: fallfest.pnc2025@gmail.com
