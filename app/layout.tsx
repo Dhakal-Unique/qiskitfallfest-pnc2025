@@ -15,6 +15,7 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Qiskit Fall Fest PNC 2025",
   description: "Beginner-friendly quantum computing event hosted at Prithvi Narayan Campus",
+  
 };
 
 
