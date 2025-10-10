@@ -12,7 +12,7 @@ import Speakers from './components/Speakers';
 import Venue from './components/Venue';
 import Footer from './components/Footer';
 
-export default function Page() {
+export default function Home() {
   return (
     <>
       <Navbar />
