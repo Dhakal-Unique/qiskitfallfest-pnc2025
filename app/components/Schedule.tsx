@@ -31,13 +31,13 @@ export default function Schedule() {
   ];
 
   return (
-    <section id="schedule" className="px-8 py-16 max-w-4xl mx-auto">
-      <h3 className="text-2xl font-bold mb-6">Schedule</h3>
+    <section id="schedule" className="px-8 py-16 max-w-4xl mx-auto bg-black">
+      <h3 className="text-2xl font-bold mb-6 text-purple-300">Schedule</h3>
       <div className="space-y-4">
         {sessions.map(({ date, details }, i) => (
           <details key={i} className="bg-gray-800 p-4 rounded">
-            <summary className="cursor-pointer font-semibold">{date}</summary>
-            <p className="mt-2 text-gray-300 whitespace-pre-line">{details}</p>
+            <summary className="cursor-pointer font-semibold text-white">{date}</summary>
+            <p className="mt-2 text-white whitespace-pre-line">{details}</p>
           </details>
         ))}
       </div>

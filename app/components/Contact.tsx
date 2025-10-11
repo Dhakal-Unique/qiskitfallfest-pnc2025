@@ -1,11 +1,11 @@
 export default function Contact() {
   return (
     <section id="contact" className="bg-gray-800 px-8 py-16 max-w-4xl mx-auto">
-      <h3 className="text-2xl font-bold mb-4">Contact Us</h3>
-      <p className="text-gray-300 mb-4">
+      <h3 className="text-2xl font-bold mb-4 text-indigo-300">Contact Us</h3>
+      <p className="text-white mb-4">
         Have questions or want to get involved? Reach out to us!
       </p>
-      <ul className="space-y-2">
+      <ul className="space-y-2 ">
         <li>
           📧{" "}
           <a
