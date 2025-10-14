@@ -13,7 +13,7 @@ export default function Hero() {
      <h2 className="text-4xl font-bold mb-4 text-white">
       Qiskit Fall Fest 2025</h2>
       <p className="text-lg mb-6 text-white">
-      November 9–19 | Prithvi Narayan Campus</p>
+      November 9-19 | Prithvi Narayan Campus</p>
 
       <a
         href="#register"
