@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Partners() {
   return (
-    <section id="Partner" className="bg-gray-600 px-8 py-16">
+    <section id="Partner" className="bg-gray-700 px-8 py-16">
       <h3 className="text-3xl font-bold  mb-12 text-indigo-300">Supporting Partners</h3>
 
       <div className="max-w-5xl mx-auto flex flex-row items-center gap-x-8">
