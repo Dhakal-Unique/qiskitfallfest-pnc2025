@@ -6,19 +6,31 @@ export default function FAQ() {
     },
     {
       q: "Do I need to attend both physical and online sessions?",
-      a: "No, you can choose either format. To receive a certificate, you must attend all sessions in your chosen mode.",
+      a: "No, you can choose either format. Participants in the Innovator Track must attend all live sessions in their selected mode (physical or virtual). Learner Track participants follow a flexible video-based schedule.",
     },
     {
       q: "Is attendance required for the hackathon?",
-      a: "Yes. Participation in the hackathon is mandatory for certification and prize eligibility.",
+      a: "Yes. Participation in the hackathon is mandatory for certification and prize eligibility in both tracks.",
     },
     {
       q: "Will I get a certificate?",
-      a: "Yes! Certificates will be awarded to participants who attend all sessions and actively participate in the hackathon.",
+      a: "Yes! All participants who complete the required sessions and assignments will receive an official IBM Quantum certificate.",
     },
     {
       q: "Where will the online sessions be held?",
-      a: "Online sessions will be hosted via Google Meet. The link will be shared with registered participants.",
+      a: "Online sessions will be hosted via Google Meet. The link will be shared with registered participants through  Discord.",
+    },
+    {
+      q: "What are the two learning tracks?",
+      a: "Innovator Track (Hybrid) includes live mentorship and hands-on coding for 50 selected participants. Learner Track (Online) offers flexible video-based learning for ~300 participants.",
+    },
+    {
+      q: "How are winners selected?",
+      a: "One winner will be selected from each track based on hackathon performance, creativity, and collaboration.",
+    },
+    {
+      q: "Can I switch tracks after registering?",
+      a: "Track selection is final once confirmed. Innovator Track spots are limited and assigned after review, while Learner Track is open to all.",
     },
   ];
 
@@ -50,4 +62,3 @@ export default function FAQ() {
     </section>
   );
 }
-
