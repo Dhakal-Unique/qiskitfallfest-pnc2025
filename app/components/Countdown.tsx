@@ -2,13 +2,14 @@
 import { useEffect, useState } from "react";
 
 export default function Countdown() {
-  const [daysLeft, setDaysLeft] = useState(null);
+  const [daysLeft, setDaysLeft] = useState<number | null>(null);
 
   useEffect(() => {
     const targetDate = new Date("2025-11-06T23:59:59");
+
     const updateCountdown = () => {
       const now = new Date();
-      const diff = targetDate - now;
+      const diff = targetDate.getTime() - now.getTime(); // ✅ Fix: convert to timestamps
       const days = Math.max(0, Math.ceil(diff / (1000 * 60 * 60 * 24)));
       setDaysLeft(days);
     };
@@ -22,7 +23,10 @@ export default function Countdown() {
 
   return (
     <p className="mt-4 text-white text-sm">
-       Registration closes in <span className="font-semibold">{daysLeft}</span> day{daysLeft !== 1 && "s"}!
+      Registration closes in{" "}
+      <span className="font-semibold">{daysLeft}</span> day
+      {daysLeft !== 1 && "s"}!
     </p>
   );
 }
+
