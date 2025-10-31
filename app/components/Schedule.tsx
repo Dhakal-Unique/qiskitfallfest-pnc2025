@@ -18,8 +18,9 @@ export default function Schedule() {
     },
     {
       date: "Nov 13",
-      details: "break",
+      details: "Special Seminar\nOnline: 7:00 PM - 8:00 PM\nSession: Quantum and Qiskit 101\nSpeaker: Soumyaranjan Swain (IBM Quantum).",
     },
+
     {
       date: "Nov 14",
       details: "Full Break Day\nNo sessions scheduled",
