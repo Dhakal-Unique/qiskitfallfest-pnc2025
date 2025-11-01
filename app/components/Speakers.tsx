@@ -20,14 +20,14 @@ export default function Speakers() {
       {/* Speaker 2 */}
       <div className="flex flex-col items-center">
         <img
-          src="/images/placeholder.png"
-          alt="Soumyaranjan Swain"
-          className="w-40 h-40 rounded-full object-cover mb-4 border-4 border-purple-300"
+          src="/images/Passport_professional.jpeg" 
+            alt="Soumyaranjan Swain"
+            className="w-40 h-40 rounded-full object-cover object-top mb-4 border-4 border-purple-300"
         />
         <h4 className="text-xl font-semibold text-white">Soumyaranjan Swain</h4>
-        <p className="text-purple-300 mb-2">IBM Quantum | Guest Speaker</p>
+        <p className="text-purple-300 mb-2">Senior Tech Manager, IBM Watsonx | IBM Quantum Ambassador</p>
         <p className="text-white max-w-md">
-          Soumyaranjan brings hands-on experience from IBM’s quantum computing initiatives. His seminar <em>Quantum and Qiskit 101</em> will introduce participants to foundational quantum concepts and how Qiskit enables real-world exploration.
+            With 17 years of industry experience, Soumyaranjan leads Gen AI initiatives at IBM Watsonx and serves as an IBM Quantum Ambassador. His session <em>Quantum and Qiskit 101</em> offers a beginner-friendly gateway into quantum computing, blending clarity, curiosity, and real-world relevance.
         </p>
       </div>
     </section>
