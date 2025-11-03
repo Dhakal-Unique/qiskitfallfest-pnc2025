@@ -11,7 +11,7 @@ export default function Speakers() {
           className="w-40 h-40 rounded-full object-cover mb-4 border-4 border-purple-300"
         />
         <h4 className="text-xl font-semibold text-white">Mr.Unique Dhakal</h4>
-        <p className="text-purple-300 mb-2">Qiskit Advocate</p>
+        <p className="text-purple-300 mb-2">Aspiring Quantum Researcher | Qiskit Advocate | Event Lead, Qiskit Fall Fest PNC 2025</p>
         <p className="text-white max-w-md">
           Mr.Dhakal brings deep insights into quantum computing and its real-world applications. His sessions blend technical clarity with inspiring stories from the frontier of quantum research.
         </p>
