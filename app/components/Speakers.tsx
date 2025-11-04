@@ -10,8 +10,8 @@ export default function Speakers() {
           alt="Instructor"
           className="w-40 h-40 rounded-full object-cover mb-4 border-4 border-purple-300"
         />
-        <h4 className="text-xl font-semibold text-white">Mr.Unique Dhakal</h4>
-        <p className="text-purple-300 mb-2">Aspiring Quantum Researcher | Qiskit Advocate | Event Lead, Qiskit Fall Fest PNC 2025</p>
+        <h4 className="text-xl font-semibold text-white">Unique Dhakal</h4>
+        <p className="text-purple-300 mb-2">Aspiring Quantum Researcher | Quantum Excellence - QGSS-2025,IBM | Event Lead, Qiskit Fall Fest PNC 2025</p>
         <p className="text-white max-w-md">
           Mr.Dhakal brings deep insights into quantum computing and its real-world applications. His sessions blend technical clarity with inspiring stories from the frontier of quantum research.
         </p>
@@ -28,6 +28,19 @@ export default function Speakers() {
         <p className="text-purple-300 mb-2">Senior Tech Manager, IBM Watsonx | IBM Quantum Ambassador</p>
         <p className="text-white max-w-md">
             With 17 years of industry experience, Soumyaranjan leads Gen AI initiatives at IBM Watsonx and serves as an IBM Quantum Ambassador. His session <em>Quantum and Qiskit 101</em> offers a beginner-friendly gateway into quantum computing, blending clarity, curiosity, and real-world relevance.
+        </p>
+      </div>
+      {/* Speaker 2 */}
+      <div className="flex flex-col items-center">
+        <img
+          src="/images/Yalla.jpeg" 
+            alt="Jnan Yalla"
+            className="w-40 h-40 rounded-full object-cover object-top mb-4 border-4 border-purple-300"
+        />
+        <h4 className="text-xl font-semibold text-white">Jnan Yalla</h4>
+        <p className="text-purple-300 mb-2">Founder & CTO, IQ Leap Research | CTO, DataTeach.AI | IBM Qiskit Advocate | Lead Quantum Research Scientist</p>
+        <p className="text-white max-w-md">
+           With over 5 years of experience across academia, startups, and research groups, Jnan Yalla specializes in quantum computing and AI innovation. His session explores hybrid quantum-classical algorithms and quantum machine learning, offering participants a hands-on glimpse into the future of intelligent systems.
         </p>
       </div>
     </section>
