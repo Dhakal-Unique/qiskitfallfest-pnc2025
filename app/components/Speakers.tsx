@@ -18,7 +18,7 @@ export default function Speakers() {
       </div>
 
       {/* Speaker 2 */}
-      <div className="flex flex-col items-center">
+      <div className="flex flex-col items-center  mb-12">
         <img
           src="/images/Passport_professional.jpeg" 
             alt="Soumyaranjan Swain"
@@ -30,7 +30,8 @@ export default function Speakers() {
             With 17 years of industry experience, Soumyaranjan leads Gen AI initiatives at IBM Watsonx and serves as an IBM Quantum Ambassador. His session <em>Quantum and Qiskit 101</em> offers a beginner-friendly gateway into quantum computing, blending clarity, curiosity, and real-world relevance.
         </p>
       </div>
-      {/* Speaker 2 */}
+      
+      {/* Speaker 3*/}
       <div className="flex flex-col items-center">
         <img
           src="/images/Yalla.jpeg" 
