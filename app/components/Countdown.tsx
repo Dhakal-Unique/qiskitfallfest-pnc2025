@@ -5,7 +5,7 @@ export default function Countdown() {
   const [daysLeft, setDaysLeft] = useState<number | null>(null);
 
   useEffect(() => {
-    const targetDate = new Date("2025-11-06T23:59:59");
+    const targetDate = new Date("2025-11-07T23:59:59");
 
     const updateCountdown = () => {
       const now = new Date();
